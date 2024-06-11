@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Contact</title>
-</head>
-<body>
-    <nav>
+  </head>
+  <body>
+    <header>
+      <nav>
         <div class="logo">
           <img src="#" alt="logo" id="logo" />
         </div>
         <div class="search">
-            <input type="text" id="search-input" placeholder="Search...">
-            <button id="search-btn" type="button"></button>
+          <input type="text" id="search-input" placeholder="Search..." />
+          <button id="search-btn" type="button"></button>
         </div>
         <ul>
           <li>Home</li>
@@ -25,6 +26,29 @@
           <li>Admin</li>
         </ul>
       </nav>
+    </header>
+    <main>
+      <section class="contact-form">
+        <fieldset>
+          <legend>Reach to us</legend>
+          <form action="#">
+            <input type="text" id="first-name" class="input-field" />
+            <input type="text" id="last-name" class="input-field" />
+            <input type="text" id="email" class="input-field" />
+            <textarea id="msg" placeholder="Type in your message..."></textarea>
+            <input type="text" id="submit-btn" />
+          </form>
+
+          <h4>Reach us on the following social platforms</h4>
+          <ul>
+            <li><div class="social"></div><p>Facebook</p></li>
+            <li><div class="social"></div><p>X</p></li>
+            <li><div class="social"></div><p>LinkedIn</p></li>
+            <li><div class="social"></div><p>Instagram</p></li>
+          </ul>
+        </fieldset>
+      </section>
+    </main>
     <script></script>
-</body>
+  </body>
 </html>
