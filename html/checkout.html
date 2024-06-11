@@ -8,23 +8,43 @@
     <title>Checkout</title>
 </head>
 <body>
-    <nav>
-        <div class="logo">
-          <img src="#" alt="logo" id="logo" />
+    <header>
+        <nav>
+            <div class="logo">
+              <img src="#" alt="logo" id="logo" />
+            </div>
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button id="search-btn" type="button"></button>
+            </div>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Products</li>
+              <li>Contact</li>
+              <li>Checkout</li>
+              <li>Admin</li>
+            </ul>
+          </nav>
+    </header>
+    <main>
+        <div class="product-checkout-wrapper">
+            <div class="product-image">
+                <img src="#" alt="product-image">
+            </div>
+            <div class="product-details">
+                <ul>
+                    <li>spec</li>
+                    <li>spec</li>
+                    <li>spec</li>
+                    <li>spec</li>
+                </ul>
+            </div>
+            <div class="checkout-btn-wrapper">
+                <button class="checkout-btn"></button>
+            </div>
         </div>
-        <div class="search">
-            <input type="text" id="search-input" placeholder="Search...">
-            <button id="search-btn" type="button"></button>
-        </div>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Products</li>
-          <li>Contact</li>
-          <li>Checkout</li>
-          <li>Admin</li>
-        </ul>
-      </nav>
+    </main>
     <script src="../script/checkout.js"></script>
 </body>
 </html>
